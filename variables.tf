@@ -8,3 +8,18 @@ variable "resource_group_name" {
     #default = "demo99"
     }
 
+variable "storage_account_name" {
+    type = string
+}
+
+variable "account_tier" {
+    type = string
+}
+
+variable "account_replication_type"{
+    type = string
+}
+
+variable "tags" {
+
+}
